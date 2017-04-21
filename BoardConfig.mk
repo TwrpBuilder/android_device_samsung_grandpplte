@@ -18,7 +18,7 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/grandpplte/kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/grandpplte/mkbootimg.mk
+#BOARD_CUSTOM_BOOTIMG_MK := device/samsung/grandpplte/mkbootimg.mk
 BOARD_MKBOOTIMG_ARGS := --cmdline bootopt=64S3,32N2,32N2 --pagesize 2048 --base 0x3fffc000 --kernel_offset 0x00008000 --ramdisk_offset 0x04004000 --tags_offset 0x0e004000 --dt device/samsung/grandpplte/dt.img
 
 # Partitions
