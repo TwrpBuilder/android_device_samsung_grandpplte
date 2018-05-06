@@ -31,3 +31,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_grandpplte
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
