@@ -6,4 +6,4 @@ PRODUCT_DEVICE := grandpplte
 PRODUCT_NAME := omni_grandpplte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := grandpplte
+PRODUCT_MODEL := SM-G532F
